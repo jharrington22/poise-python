@@ -41,7 +41,7 @@ module PoisePython
         redhat: {default: %w{python}},
         centos: {default: %w{python}},
         fedora: {default: %w{python3 python}},
-        amazon: {default: %w{python34 python27 python26 python}},
+        amazon: {default: %w{python36 python34 python27 python26 python}},
       })
 
       # Output value for the Python binary we are installing. Seems to match
